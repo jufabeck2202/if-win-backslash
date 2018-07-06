@@ -1,6 +1,6 @@
 # name [![Build Status](https://travis-ci.org/jufabeck2202/if-win-backslash.svg?branch=master)](https://travis-ci.org/jufabeck2202/if-win-backslash)
 
-> changes / to \\ if the platform is windows
+> changes / to \\\\ if the platform is windows
 
 
 ## Install
