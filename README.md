@@ -1,44 +1,43 @@
 # name [![Build Status]
 
-> description
+> changes / to \\ if the platform is windows
 
 
 ## Install
 
 ```
-$ npm install ytplaylist-dl
+$ npm install if-win-backslash
 ```
 
 
 ## Usage
 ```js
+const ifwinb = require("if-win-backslash");
 
+let path = ifwinb("your/path/to/something")
+// if on windows path = your\\path\\to\\something
+// on everything else = your/path/to/something
 ```
 Text
 
 ## API
 
-### module(param, param )
+### ifwinb(path)
 
-Returns a `Promise` that .....
+Returns a `String` path, if on windows with backslashes, 
+on everything else with frontslashes.Also normalizes the path using upath
 
 
-#### param
-
-Type: `string`
-
-Text
-
-#### param
+#### path
 
 Type: `string`
 
-text
+Path can contain as many front and backslashes as you want
 
 
 ## Related
 
-- [Sindre Sorhus](https://github.com/sindresorhus) - cool person
+- [is-windows](https://github.com/jonschlinkert/is-windows) - Returns true if the platform is Windows. 
 
 ## License
 
