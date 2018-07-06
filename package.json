@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "if-win-backslash",
   "version": "1.0.0",
-  "description": "",
+  "description": "changes / to \\ if the platform is windows",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "is-windows": "^1.0.2",
-    "opn": "^5.3.0",
     "upath": "^1.1.0"
   },
   "devDependencies": {
@@ -20,10 +19,17 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "is windows",
+    "backslashes",
+    "slash",
+    "path",
+    "if windows",
+    "change path"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jufabeck2202"
+    "url": "https://github.com/jufabeck2202/if-win-backslash"
   },
   "homepage": "https://github.com/jufabeck2202/"
 }
