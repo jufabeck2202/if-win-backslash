@@ -1,6 +1,6 @@
 {
   "name": "if-win-backslash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "changes / to \\ if the platform is windows",
   "main": "index.js",
   "scripts": {
