@@ -3,7 +3,6 @@ const upath = require("upath");
 const opn = require('opn');
 
 module.exports = (path) => {
-
     if (isWindows())
         return changeBackslash(path);
     else return path;
